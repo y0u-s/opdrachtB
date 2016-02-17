@@ -35,11 +35,7 @@ public class Data {
 	DBCollection gps = db.getCollection("gps");
 
 	public void getData() {
-		
-	
-		
-
-		DBCollection coll = db.getCollection("gps");
+			DBCollection coll = db.getCollection("gps");
 		
 		Map<String, Object> dbo = new HashMap<String, Object>();
 		dbo.put("_id", "$Rdx");
